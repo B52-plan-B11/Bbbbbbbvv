@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Sample App",
+        "bundle": "com.example.sample",
+        "version": "1.0.0",
+        "img_url": "https://via.placeholder.com/150",
+        "ipa_url": "https://example.com/sample.ipa"
+    }
+]
