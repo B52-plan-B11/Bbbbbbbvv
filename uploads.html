@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELL STORE - Upload IPA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HELL STORE - Upload IPA</h1>
+    <form onsubmit="uploadIPA(); return false;">
+        <label for="appName">App Name:</label>
+        <input type="text" id="appName" required><br><br>
+
+        <label for="appBundle">Bundle ID:</label>
+        <input type="text" id="appBundle" required><br><br>
+
+        <label for="appVersion">Version:</label>
+        <input type="text" id="appVersion" required><br><br>
+
+        <label for="appImage">App Icon:</label>
+        <input type="file" id="appImage" accept="image/*" required><br><br>
+
+        <label for="appIpa">IPA File:</label>
+        <input type="file" id="appIpa" accept=".ipa" required><br><br>
+
+        <button type="submit">Upload</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
