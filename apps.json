@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Video Star",
+        "image": "https://example.com/videostar.png",
+        "download_url": "https://example.com/videostar.ipa"
+    },
+    {
+        "name": "Picart Pro",
+        "image": "https://example.com/picartpro.png",
+        "download_url": "https://example.com/picartpro.ipa"
+    },
+    {
+        "name": "E-Sign",
+        "image": "https://example.com/esign.png",
+        "download_url": "https://example.com/esign.ipa"
+    }
+]
